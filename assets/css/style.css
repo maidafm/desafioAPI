@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2C2C2C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.conversor {
+    background-color: #5D5D5D;
+    padding: 20px;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    background-color: skyblue;
+    color: white;
+    margin: 10px;
+}
+
+#error {
+    color: red;
+    margin-top: 10px;
+}
